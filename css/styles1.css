@@ -1,0 +1,229 @@
+.navbar-brand > big{
+	display: inline-block;
+}
+.tprow{
+	font-size:1.1em;
+	font-weight: bold;
+}
+th{
+	padding: 1.5%;
+}
+.tb{
+	margin: 2% auto 2% auto;
+	font-family: Montserrat;
+	overflow:auto;
+	border:1px solid #dee2e6;
+}
+.col1{
+	width: 5vw;
+	border:1px solid #dee2e6;
+	border-bottom-width:3px;
+	color: rgba(0,0,0,0.8);
+}
+.col2{
+	width: 20vw;
+	border:1px solid #dee2e6;
+	border-bottom-width:3px;
+	color: rgba(0,0,0,0.8);
+}
+.col3{
+	width: 25vw;
+	border:1px solid #dee2e6;
+	border-bottom-width:3px;
+	color: rgba(0,0,0,0.8);
+}
+.col4{
+	border:1px solid #dee2e6;
+	border-bottom-width:3px;
+	color: rgba(0,0,0,0.8);
+}
+.col5{
+	width: 10vw;
+	border:1px solid #dee2e6;
+	border-bottom-width:3px;
+	color: rgba(0,0,0,0.8);
+}
+.disp{
+	padding: 1%;
+	border:1px solid #dee2e6;
+	font-size: 1.1em;
+}
+button{
+	border: none;
+	background-color:white;
+	margin-bottom: 10px;
+}
+button span{
+	color: red;
+	padding: 7px;
+}
+button span:hover{
+	border-radius: 40%;
+	background-color: white;
+	color: red;
+}
+.disp1{
+	padding: 2%;
+	border:1px solid #dee2e6;
+	font-size: 1.1em;
+}
+.hdtop{
+	text-align: center;
+	padding-top: 5%;
+	text-decoration: underline;
+	color: #3ccd9b;
+	font-family: 'Lucida Handwriting';
+}
+ tr:hover{
+	background-color: rgba(0,0,0,0.05);
+}
+tr:hover button{
+	background-color: rgba(0,0,0,0.005);
+}
+.transfer{
+	background-color: #3ccd9b;
+	font-size: 1.8em;
+	color: white;
+	text-align: center;
+	padding-top: 0.5% 4% 0.5% 4%;
+	margin:4% auto 39% 0;
+	border-radius: 5%;
+	border-radius: 40px;
+	font-weight: 700;
+}
+.transfersection{
+	margin-left: auto;
+	margin-right: auto;
+}
+.selectreceiverhead{
+	margin-left:43.5%;
+	font-size: 1.2em;
+	margin-top: 2%;
+}
+#receiver{
+	margin: 2% 0 0 42.5%;
+	width: 15vw;
+	height: 40px;
+	font-size: 1.2em;
+	color: rgb(0, 51, 102);
+}
+#amountTransfered{
+	width: 15vw;
+	margin-left: auto;
+	margin-right: auto;
+    height: 2rem;
+    padding: 1.5%;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 1%;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.confirmpayment{
+	background-color: #3ccd9b;
+	font-size: 1.8em;
+	color: white;
+	text-align: center;
+	padding:0.5% 4% 0.5% 4%;
+	margin:4% auto 0 38.5%;
+	border-radius: 40px;
+	font-weight: 700;
+}
+.confirmpayment span{
+    color:white;
+}
+.confirmpayment span:hover{
+    background-color: #3ccd9b;
+    color: white;
+}
+.tran{
+	width: 100vw;
+	height: 10vh;
+	margin-top:10%;
+	background-color: blue;
+}
+.hideit{
+	display: none;
+}
+@media only screen and (max-width:1000px){
+	.confirmpayment span{
+		color:white;
+	}
+	.confirmpayment span:hover{
+		background-color: #3ccd9b;
+		color: white;
+	}
+	#amountTransfered{
+		margin-left: 45%;
+		height: 5rem;
+	}
+	#receiver{
+		margin-left: 45%;
+	}
+}
+@media only screen and (max-width:768px){
+	.confirmpayment span{
+		color:white;
+	}
+	.confirmpayment span:hover{
+		background-color: #3ccd9b;
+		color: white;
+	}
+	.hdtop{
+		font-size: 1em;
+		margin-top: 15%;
+	}
+	 .navbar-brand > big{
+		display:none;
+	}
+	.tb{
+		font-size: 12px;
+	}
+	.transfersection{
+		font-size: 10px;
+	}
+	.transfersection button{
+		margin-left: 38%;
+	}
+	.selectreceiverhead{
+		text-align: center;
+		margin-left: 42%;
+		font-size: 1em;
+	}
+	.confirmpayment span{
+		font-size: 0.8em;
+	}
+	.confirmpayment{
+		margin-left: 38%;
+	}
+	#amountTransfered{
+		width: 15vw;
+		height: 4rem;
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width:468px){
+	.confirmpayment{
+		margin-left: 27%;
+	}
+	.transfersection button{
+		margin-left: 30%;
+	}
+	.selectreceiverhead{
+		margin-left: 32%;
+	}
+	#amountTransfered{
+		width: 25vw;
+		margin-left: 40%;
+	}
+	.confirmpayment span{
+		color:white;
+	}
+	.confirmpayment span:hover{
+		background-color: #3ccd9b;
+		color: white;
+	}
+}

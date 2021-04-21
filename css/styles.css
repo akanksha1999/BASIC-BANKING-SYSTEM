@@ -1,0 +1,59 @@
+body{
+    background-image:url(homebg.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:top;
+    background-attachment: fixed;
+    margin:0;
+    padding: 0;
+    align-items: center;
+    }
+.auto-input{
+    top:50%;
+    left:25%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width:auto;
+    height: auto;
+    font-size: 3vw;
+    color:white;
+}
+@media screen  and (max-width: 810px){
+    .auto-input{
+        font-size:3vw;
+        top:20%;
+    }
+}
+@media screen and (min-width: 811px){
+    .auto-input{
+        top:40%;
+    }
+}
+.auto-input::after{
+    content:'|';
+    animation: blink 0.7s infinite;
+}
+.wraper h1{
+    display:inline-block;
+}
+@keyframes blink{
+    0%
+        {
+            opacity: 0;
+        }
+    100%
+        {
+            opacity: 1;
+        }
+}
+.typed-cursor{
+    display: none;
+}
+.navbar-brand > big{
+    display: inline-block;
+}
+@media only screen and (max-width:768px){
+     .navbar-brand > big{
+        display:none;
+    }
+}
